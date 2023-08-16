@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: HaloCheck
+Version: 0.0.1
+Summary: An easy to use BlackBox package to estimate hallucination severity in LLMs
+Home-page: https://github.com/EngSalem/HaLo
+Author: Mohamed Elaraby
+Author-email: mse30@pitt.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+An easy to use entailment based BlackBox package to estimate hallucination severity in LLMs
+

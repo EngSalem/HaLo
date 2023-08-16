@@ -1,0 +1,7 @@
+README.md
+setup.py
+HaloCheck.egg-info/PKG-INFO
+HaloCheck.egg-info/SOURCES.txt
+HaloCheck.egg-info/dependency_links.txt
+HaloCheck.egg-info/requires.txt
+HaloCheck.egg-info/top_level.txt
