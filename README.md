@@ -24,7 +24,7 @@ HaloCheck primarily focuses on assessing hallucination severity at a sentence-le
 *HaloCheck range is easily interpreted [-1,1] where -1 indicated infactual, 1 factual. The higher the score the more consistent your samples are. 
 
 ## HaloCheck is also faster than all selfcheckGPT measures, and doesn't need LLM calls. Although it's knowledge free, therefore its incapable of identifying consistent inaccuracies.
-
+![](HaloCheck_time.png)
 
 ## How to Use HaloCheck
 
