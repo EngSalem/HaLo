@@ -16,6 +16,16 @@ HaloCheck is a tool designed to estimate the severity of hallucinations in Large
 
 HaloCheck primarily focuses on assessing hallucination severity at a sentence-level granularity. It evaluates whether an LLM generates consistent information across its various response samples, thereby providing a finer-grained estimation of the severity of hallucinations.
 
+## HaloCheck better correlates with human annotation of consistency and avergae factuality of the answers compared to selfcheckGPT. 
+![](halo_vs_selfcheck.png)
+
+*Note that we developed HaLoCheck around the same time selfcheckGPT added NLI (entailment wasn't part of the original selfcheckGPT).
+*We take into account all samples and use SummaC which facilitates computing of entailment between two pieces of text.
+*HaloCheck range is easily interpreted [-1,1] where -1 indicated infactual, 1 factual. The higher the score the more consistent your samples are. 
+
+## HaloCheck is also faster than all selfcheckGPT measures, and doesn't need LLM calls. Although it's knowledge free, therefore its incapable of identifying consistent inaccuracies.
+
+
 ## How to Use HaloCheck
 
 To use HaloCheck in your Python code, follow these steps:
