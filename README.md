@@ -51,5 +51,17 @@ NBAQA.csv
 Feel free to modify and adapt the code to suit your specific use case and requirements.
 
 ---
+## Citation
+
+* Please cite the following work if you are using any of our ideas or code
+
+```
+@article{elaraby2023halo,
+  title={Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models},
+  author={Elaraby, Mohamed and Lu, Mengyin and Dunn, Jacob and Zhang, Xueying and Wang, Yu and Liu, Shizhu},
+  journal={arXiv preprint arXiv:2308.11764},
+  year={2023}
+}
+```
 
 *Note: This repository is part of ongoing research, and the tools provided here are subject to further updates and improvements.*
