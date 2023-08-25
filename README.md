@@ -41,7 +41,7 @@ inconsistent_samples = [
     'The 1958 NBA Finals was played between the Boston Celtics and Minneapolis Lakers. The MVP of the 1958 NBA Finals was Bill Russell.'
 ]
 
-scorer = checker.HaloCheck(device='cpu', granularity='sentence', model='mnli')  # Change to 'cuda' if a GPU is available
+scorer = checker.HaloCheck(device='cpu', granularity='sentence', nli_model='mnli')  # Change to 'cuda' if a GPU is available
 print(scorer.score(inconsistent_samples))
 # Expected score: -0.417 (indicating inconsistency)
 ```
