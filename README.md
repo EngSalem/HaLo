@@ -45,6 +45,8 @@ scorer = checker.HaloCheck(device='cpu', granularity='sentence', model='mnli')  
 print(scorer.score(inconsistent_samples))
 # Expected score: -0.417 (indicating inconsistency)
 ```
+## THE NBA Question Answering set used is under file
+NBAQA.csv
 
 Feel free to modify and adapt the code to suit your specific use case and requirements.
 
